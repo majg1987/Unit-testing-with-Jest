@@ -1,4 +1,4 @@
-// importar la funcion sum del archivo app.js
+// importar las funciones del archivo app.js
 const {
     sum,
     fromEuroToDollar,
@@ -14,10 +14,6 @@ test('adds 14 + 9 to equals 23', () => {
     expect(total).toBe(23);
 });
 
-// importo las funciones desde app.js
-const {
-
-} = require('./app.js')
 
 test("One euro should be 1.206 dollars", () => {
     // hago mi comparacion (la prueba)
